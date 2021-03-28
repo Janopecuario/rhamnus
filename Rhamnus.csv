@@ -1,47 +1,47 @@
-﻿DNABANK;SPECIES;LOCALIDAD;POB_CODE;y;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8153;R. alaternus;Camino a Bandama, El Cabezo;RalaCABEZO;28,13722222;-15,49333333;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8465-8473;R. glandulosa;Finca de Samsó, núcleo 1, barranco del Chorro,  encima de San Pedro, cerca del lomo de la deferencia;RglCSAMSO;28,19766667;-15,76897222;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8440-8450;R. glandulosa;Finca de Samsó, núcleo 2 al lado del camino que pasa por casa abandonada;RglCSAMSO;28,18394444;-15,79272222;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8451-8464;R. glandulosa;Finca de Samsó, núcleo 3 al lado de la presa;RglCSAMSO;28,20444444;-15,83175;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8496-8498;R. glandulosa;Finca de Samsó, nucleo aislado;RglCSAMSO;28,19586111;-15,72494444;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-7056-7057;R. glandulosa;Tamadaba, Las Presas;RglCTAMAD;28,08925;-15,82591667;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10901-10906//11600;R. glandulosa;A 12 km de San Sebastian, en la Ctra a los cedros (Ctra del Rejo);RglGREJO;28,27530556;-17,23116667;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10914-10929;R. glandulosa;Cruce a 0,2 Km de Laguna Grande;RglGLAGU;28,23280556;-17,30911111;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10888-10900;R. glandulosa;Pista en la Mesa de Vallehermoso (I);RglGVALLE;28,21094444;-17,41313889;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-11669-11693;R. glandulosa;Pista en la Mesa de Vallehermoso (II);RglGVALLE;28,32577778;-17,42347222;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10823-10828;R. glandulosa;Entre Los Tilos y puente de Los Sauces;RglPTILOS;28,92747222;-17,869;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10829-10840;R. glandulosa;Lomo de Los Gomeros,  Mirca;RglPMIRCA;28,74238889;-17,888;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8866-8871;R. glandulosa;Barranco de Badajoz, Güimar;RglTBADAJ;28,43805556;-16,51063889;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8800;R. glandulosa;Barranco del Agua;RglTBAGUA;28,40305556;-16,49961111;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8708-8722;R. glandulosa;Carretera EL Bailadero-Pijaral ;RglTBAILA;28,56994444;-16,29952778;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8154-8155;R.  crenulata;Camino a Bandama, El Cabezo;RcreCBANDA;28,13722222;-15,49333333;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-7999-8003;R.  crenulata;Montaña de Guía sobre Anzofé;RcreCMGUIA;28,23227778;-15,67713889;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-7987-7990//7992-7998;R.  crenulata;Siete Puertas (Tafira);RcreCTAFIRA;28,16983333;-15,62916667;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-4288-4290/ 18817-18820;R.  crenulata;Pico de La Palma;RcreFPALMA;28,100526;-14,3612893;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-18806-18813;R.  crenulata;Pico de la Zarza;RcreFZARZA;28,101004;-14,35738762;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-18883-18887;R.  crenulata;Pico del Fraile;RcreFRAILE;28,101004;-14,35738761;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10875-10887;R.  crenulata;Ctra. Vallehermoso a Hermigua, cara norte de Roque Cano;RcreGRCANO;28,18511111;-17,32461111;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-3950;R.  crenulata;Hermigua;RcreGHERMI;NA;NA;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10800-10811;R.  crenulata;Las Rosas, Túnel de Agulo;RcreGAGULO;28,26502778;-17,33977778;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-11641-11652//11654-11667;R.  crenulata;Meseta de Vallehermoso;RcreGVALLE;28,25769444;-17,35702778;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10201-10208;R.  crenulata;Barranco de la Madera, Santa Cruz;RcrePMADER;28,84869444;-17,82777778;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10230-10242;R.  crenulata;Barranco de San Juan, San Andrés y Sauces;RcrePSJUAN;28,833;-17,91325;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10786-10799;R.  crenulata;Barranco Gallegos;RcrePGALLE;28,87975;-17,96316667;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10841-10874;R.  crenulata;Ctra a La Salemera, Lomo Oscuro, Mazo;RcrePZALEM;28,70038889;-17,80633333;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10221-10229;R.  crenulata;Don Pedro-Bco Fagundo;RcrePFAGUN;28,90936111;-17,92386111;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10243-10244//10812-10822;R.  crenulata;Entre Los Tilos y puente de Los Sauces;RcrePTILOS;28,93361111;-17,90002778;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8872-8879;R.  crenulata;Barranco de Badajoz, Güimar;RcreTBADAJ;28,42169444;-16,48422222;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8801-8804;R.  crenulata;Barranco del Agua;RcreTBAGUA;28,38775;-16,57652778;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8845-8854//9219;R.  crenulata;Barranco del infierno;RcreTBINFI;28,23233333;-16,82216667;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8816-8822;R.  crenulata;Barranco La Hoya, Punta Hidalgo;RcreTBHOYA;28,61047222;-16,43861111;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8764-8767;R.  crenulata;Barranco Seco,Teno bajo;RcreTBSECO;28,34319444;-16,99797222;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8925-8936;R.  crenulata;Bco de Pina (tb. Bco. de Blas), Abona;RcreTBPINA;28,35197222;-16,92780556;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8896-8906//10045;R.  crenulata;Bco. Las Vigas (Araya), Candelaria;RcreTARAYA;28,50977778;-16,48997222;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8942-8949//8956-8957;R.  crenulata;Cuevas Negras (Teno);RcreTCUEVA;28,48694444;-16,84455556;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10993-11003;R.  crenulata;Igueste de San Andrés (Anaga);RcreTANAGA;28,59894444;-16,23452778;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8880-8886;R.  crenulata;Rincón de Buenavista, entre Bujamé y El Fraile, Teno;RcreTBUENA;28,47022222;-16,98258333;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-4255//4257;R.  Integrifolia;La Fortaleza;RinTFORTA;28,41844444;-16,60777778;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-11314-11320;R.  Integrifolia;Barranco de Masca;RinTMASCA;28,41511111;-16,99469444;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-10985-10992;R.  Integrifolia;Boca Tauce;RinTTAUCE;28,31594444;-16,79213889;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8835-8844//10971//9051-9052//9823-9824;R.  Integrifolia;Barranco del infierno;RinTBINFI;28,23233333;-16,82216667;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-8887-8888//9823-9824;R.  Integrifolia;Rincón de Buenavista, entre Bujamé y El Fraile, Teno;RinTBUJAM;28,45344444;-16,98136111;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+﻿DNABANK;SPECIES;LOCALIDAD;POB_CODE;y;x
+8153;R. alaternus;Camino a Bandama. El Cabezo;RalaCABEZO;28.13722222;-15.49333333
+8465-8473;R. glandulosa;Finca de Samsó. núcleo 1. barranco del Chorro.  encima de San Pedro. cerca del lomo de la deferencia;RglCSAMSO;28.19766667;-15.76897222
+8440-8450;R. glandulosa;Finca de Samsó. núcleo 2 al lado del camino que pasa por casa abandonada;RglCSAMSO;28.18394444;-15.79272222
+8451-8464;R. glandulosa;Finca de Samsó. núcleo 3 al lado de la presa;RglCSAMSO;28.20444444;-15.83175
+8496-8498;R. glandulosa;Finca de Samsó. nucleo aislado;RglCSAMSO;28.19586111;-15.72494444
+7056-7057;R. glandulosa;Tamadaba. Las Presas;RglCTAMAD;28.08925;-15.82591667
+10901-10906//11600;R. glandulosa;A 12 km de San Sebastian. en la Ctra a los cedros (Ctra del Rejo);RglGREJO;28.27530556;-17.23116667
+10914-10929;R. glandulosa;Cruce a 0.2 Km de Laguna Grande;RglGLAGU;28.23280556;-17.30911111
+10888-10900;R. glandulosa;Pista en la Mesa de Vallehermoso (I);RglGVALLE;28.21094444;-17.41313889
+11669-11693;R. glandulosa;Pista en la Mesa de Vallehermoso (II);RglGVALLE;28.32577778;-17.42347222
+10823-10828;R. glandulosa;Entre Los Tilos y puente de Los Sauces;RglPTILOS;28.92747222;-17.869
+10829-10840;R. glandulosa;Lomo de Los Gomeros.  Mirca;RglPMIRCA;28.74238889;-17.888
+8866-8871;R. glandulosa;Barranco de Badajoz. Güimar;RglTBADAJ;28.43805556;-16.51063889
+8800;R. glandulosa;Barranco del Agua;RglTBAGUA;28.40305556;-16.49961111
+8708-8722;R. glandulosa;Carretera EL Bailadero-Pijaral ;RglTBAILA;28.56994444;-16.29952778
+8154-8155;R.  crenulata;Camino a Bandama. El Cabezo;RcreCBANDA;28.13722222;-15.49333333
+7999-8003;R.  crenulata;Montaña de Guía sobre Anzofé;RcreCMGUIA;28.23227778;-15.67713889
+7987-7990//7992-7998;R.  crenulata;Siete Puertas (Tafira);RcreCTAFIRA;28.16983333;-15.62916667
+4288-4290/ 18817-18820;R.  crenulata;Pico de La Palma;RcreFPALMA;28.100526;-14.3612893
+18806-18813;R.  crenulata;Pico de la Zarza;RcreFZARZA;28.101004;-14.35738762
+18883-18887;R.  crenulata;Pico del Fraile;RcreFRAILE;28.101004;-14.35738761
+10875-10887;R.  crenulata;Ctra. Vallehermoso a Hermigua. cara norte de Roque Cano;RcreGRCANO;28.18511111;-17.32461111
+3950;R.  crenulata;Hermigua;RcreGHERMI;NA;NA
+10800-10811;R.  crenulata;Las Rosas. Túnel de Agulo;RcreGAGULO;28.26502778;-17.33977778
+11641-11652//11654-11667;R.  crenulata;Meseta de Vallehermoso;RcreGVALLE;28.25769444;-17.35702778
+10201-10208;R.  crenulata;Barranco de la Madera. Santa Cruz;RcrePMADER;28.84869444;-17.82777778
+10230-10242;R.  crenulata;Barranco de San Juan. San Andrés y Sauces;RcrePSJUAN;28.833;-17.91325
+10786-10799;R.  crenulata;Barranco Gallegos;RcrePGALLE;28.87975;-17.96316667
+10841-10874;R.  crenulata;Ctra a La Salemera. Lomo Oscuro. Mazo;RcrePZALEM;28.70038889;-17.80633333
+10221-10229;R.  crenulata;Don Pedro-Bco Fagundo;RcrePFAGUN;28.90936111;-17.92386111
+10243-10244//10812-10822;R.  crenulata;Entre Los Tilos y puente de Los Sauces;RcrePTILOS;28.93361111;-17.90002778
+8872-8879;R.  crenulata;Barranco de Badajoz. Güimar;RcreTBADAJ;28.42169444;-16.48422222
+8801-8804;R.  crenulata;Barranco del Agua;RcreTBAGUA;28.38775;-16.57652778
+8845-8854//9219;R.  crenulata;Barranco del infierno;RcreTBINFI;28.23233333;-16.82216667
+8816-8822;R.  crenulata;Barranco La Hoya. Punta Hidalgo;RcreTBHOYA;28.61047222;-16.43861111
+8764-8767;R.  crenulata;Barranco Seco.Teno bajo;RcreTBSECO;28.34319444;-16.99797222
+8925-8936;R.  crenulata;Bco de Pina (tb. Bco. de Blas). Abona;RcreTBPINA;28.35197222;-16.92780556
+8896-8906//10045;R.  crenulata;Bco. Las Vigas (Araya). Candelaria;RcreTARAYA;28.50977778;-16.48997222
+8942-8949//8956-8957;R.  crenulata;Cuevas Negras (Teno);RcreTCUEVA;28.48694444;-16.84455556
+10993-11003;R.  crenulata;Igueste de San Andrés (Anaga);RcreTANAGA;28.59894444;-16.23452778
+8880-8886;R.  crenulata;Rincón de Buenavista. entre Bujamé y El Fraile. Teno;RcreTBUENA;28.47022222;-16.98258333
+4255//4257;R.  Integrifolia;La Fortaleza;RinTFORTA;28.41844444;-16.60777778
+11314-11320;R.  Integrifolia;Barranco de Masca;RinTMASCA;28.41511111;-16.99469444
+10985-10992;R.  Integrifolia;Boca Tauce;RinTTAUCE;28.31594444;-16.79213889
+8835-8844//10971//9051-9052//9823-9824;R.  Integrifolia;Barranco del infierno;RinTBINFI;28.23233333;-16.82216667
+8887-8888//9823-9824;R.  Integrifolia;Rincón de Buenavista. entre Bujamé y El Fraile. Teno;RinTBUJAM;28.45344444;-16.98136111
