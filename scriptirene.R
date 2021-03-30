@@ -4,7 +4,8 @@ setwd("D:/Irene_Kosteletzkya")
 packages<-c("tidyverse","biomod2","sp","rgdal",
             "raster","ggfortify","FactoMineR","ggfortify","factoextra","ecospat","hier.part")
 sapply(packages,require,character.only=TRUE)
-
+extension<-extent(-100.41488220025292,61.57797634199362,
+                 20.46518186976621, 50.571997551894505)
 kos<-read_delim("Kos_completo.csv",delim=",")
 regiones<-levels(factor(kos$Region))
 
@@ -12,7 +13,7 @@ regiones<-levels(factor(kos$Region))
 capas<-list.files(pattern=".tif")
 listacapas<-stack()
 for (c in capas){
-  capatemporal<-raster(c)
+  capatemporal<-raster(c) %>% crop(extension)
   listacapas<-stack(listacapas,capatemporal)
 }
 
@@ -92,14 +93,13 @@ presence.absence.raster <- function (mask.raster,species.data,raster.label="") {
 }
 predictorestif<-stack()
 for (c in predictores){
-  capatemporal<-raster(paste0(c,".tif"))
+  capatemporal<-raster(paste0(c,".tif")) %>% crop(extension) %>% aggregate(fac=10)
   predictorestif<-stack(predictorestif,capatemporal)
 }
-
-predictorestif<-aggregate(predictorestif,fac=10)
-plantilla<-predictorestif$wc2.1_30s_bio_1 %>% aggregate(fac=10)
+plantilla %>% aggregate(fac=10)->plantilla
+plantilla<-predictorestif$wc2.1_30s_bio_1
 xy.kos$pres<-rep(1,nrow(xy.kos))
-kosraster<-as.data.frame(presence.absence.raster(plantilla,xy.kos,raster.label=especie),xy=TRUE)
+kosraster<-as.data.frame(presence.absence.raster(plantilla,xy.kos[1:2],raster.label=especie),xy=TRUE)
 
 kos.na<-kosraster[,3]
 kos.na[kos.na==0]="NA"
@@ -130,7 +130,8 @@ datos.all<-BIOMOD_FormatingData(resp.var=myResp,
 rm(myRespXY,myResp)
 modelos.all <- BIOMOD_Modeling(
   datos.all,
-  models = c('RF',"GLM","MARS","GBM","GAM"),
+  #models = c('RF',"GLM","MARS","GBM","GAM"),
+  models = c('RF',"GLM","GBM"),
   #models.options = myBiomodOption,
   NbRunEval=1, 							#linea modificada para prueba. Original:5
   DataSplit=85,
@@ -143,8 +144,8 @@ modelos.all <- BIOMOD_Modeling(
   modeling.id = paste(myRespName,"FirstModeling",sep=""))
 
 proj.modelos.all<-BIOMOD_Projection(modelos.all,
-                                    new.env=predictores,
-                                    proj.name='Sambucus palmensis intro',
+                                    new.env=predictorestif,
+                                    proj.name='Kosteletzkya',
                                     selected.models = 'all',
                                     binary.meth = 'TSS',
                                     filtered.meth ='TSS',
