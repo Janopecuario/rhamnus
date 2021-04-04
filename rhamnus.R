@@ -92,7 +92,7 @@ species<-species[-c(3)]
 for(s in species){
   especies<-filter(data,species==s) %>% na.omit()
   cor.rhamnus<-cor(especies[1:ncol(especies)-1],method="pearson")
-  npred<-ecospat.npred(cor.rhamnus,th=0.75)
+  npred<-ecospat.npred(cor.rhamnus,th=0.75)-2
   print(paste(s,npred))
   rand.especies<-as.data.frame(sampleRandom(variables,nrow(especies)*2, ext=variables,na.rm=TRUE,xy=FALSE))
   rand.especies$pres<-rep(0,nrow(rand.especies))
@@ -146,8 +146,8 @@ for(s in species){
                                   eval.resp.var = NULL,
                                   eval.expl.var = NULL,
                                   eval.resp.xy = NULL,
-                                  PA.nb.rep = 2,
-                                  PA.nb.absences = nrow(xy.especies)*15,
+                                  PA.nb.rep = 3,
+                                  PA.nb.absences = nrow(xy.especies)*16,
                                   PA.strategy = 'random',
                                   na.rm = TRUE)
   
@@ -206,10 +206,11 @@ for(s in species){
   writeRaster(ensemble.pres.all@proj@val[[1]],paste0(s,".ensemble.asc"),overwrite=TRUE)
   # map.all<-ensemble.pres.all@proj@val[[1]]
   # plot(map.all)
-  # contour(map.all,nlevels=2,levels=750,add=TRUE)
-  # evaluations.all<-melt.array(get_evaluations(modelos.all))
-  # evaluations.all<-subset(evaluations.all,X1=="TSS" & X2=="Testing.data")
-  # evaluations.all$data<-c(rep("All",nrow(evaluations.all)))
+  # contour(map.all,nlevels=2,levels=850,add=TRUE)
+  evaluations.all<-melt.array(get_evaluations(modelos.all))
+  evaluations.all<-subset(evaluations.all,X1=="TSS" & X2=="Testing.data")
+  evaluations.all$data<-c(rep("All",nrow(evaluations.all)))
+  write.table(evaluations.all,paste0("evals.",s,".txt"))
   # ggplot(evaluations.all,aes(x=X1,y=value,col=X3))+stat_boxplot(geom="errorbar")+geom_boxplot()+theme_bw()
   # 
   # ggplot(evaluations,aes(x=X1,y=value,col=X5))+stat_boxplot(geom="errorbar")+geom_boxplot()+theme_bw()
